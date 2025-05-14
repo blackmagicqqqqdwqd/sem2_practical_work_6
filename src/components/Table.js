@@ -43,7 +43,7 @@ const Table = (props) => {
 
     return (
         <>
-            <Chart></Chart>
+            <Chart data={dataTable}></Chart>
             <h4>Фильтры</h4>
             <Filter filtering={updateDataTable} data={dataTable} fullData={props.data} />
 
