@@ -4,7 +4,7 @@ import { useState } from "react";
 import Filter from './Filter.js';
 import Sort from './Sort.js';
 
-
+//
 
 const Table = (props) => {
     const [filt, setFilt] = useState(props.data);
