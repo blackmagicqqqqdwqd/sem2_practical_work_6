@@ -3,7 +3,7 @@ import TableBody from './TableBody.js';
 import { useState } from "react";
 import Filter from './Filter.js';
 import Sort from './Sort.js';
-
+import Chart from './Chart.js';
 //
 
 const Table = (props) => {
@@ -43,6 +43,7 @@ const Table = (props) => {
 
     return (
         <>
+            <Chart></Chart>
             <h4>Фильтры</h4>
             <Filter filtering={updateDataTable} data={dataTable} fullData={props.data} />
 
