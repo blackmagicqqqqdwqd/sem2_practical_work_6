@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  margin-left: 20px;
+  text-align: left;
 }
 
 .App-logo {
@@ -35,4 +36,34 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.hide {
+  display: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2em;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+
+td, th {
+    border: 1px solid black;
+    padding: 10px;   
+}
+
+th {
+    text-align: center;
+    background-color: lightgrey;
+}
+
+
+div span:hover{
+  background-color:rebeccapurple;
 }
